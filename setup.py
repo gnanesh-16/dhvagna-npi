@@ -15,7 +15,7 @@ with open("requirements.txt", "r", encoding="utf-8") as f:
 
 setup(
     name="dhvagna-npi",
-    version="0.1.2",
+    version="0.1.3",
     author="Gnanesh Balusa",
     author_email="gnaneshbalusa016g@gmail.com",
     description="Advanced voice transcription tool with multi-language support outperformed current llm models.",
