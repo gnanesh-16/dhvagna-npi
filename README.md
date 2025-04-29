@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-  <img src="https://github.com/user-attachments/assets/70a91127-6b70-4a69-a297-d3e5638b78f7" alt="Dhvagna-NPI Banner">
+  <img src="https://github.com/gnanesh-16/dhvagna-npi/raw/main/assets/banner.jpg" alt="Dhvagna-NPI Banner">
 </p>
 
 Official Python package for advanced voice transcription with multi-language support. Dhvagna-NPI offers an end-to-end voice transcription suite for developers building speech recognition applications. You can easily transcribe spoken audio to text in multiple languages with a beautiful command-line interface.
