@@ -1,0 +1,19 @@
+run setup_windows.bat
+activate if not activated the venv 
+build wheel with pyton -m build
+install pip install dist\dhvagna_npi-0.1.0-py3-none-any.whl
+
+:: Check if the package is installed correctly
+python -c "import dhvagna_npi; print(dhvagna_npi.__version__)"  
+
+:: Test the CLI commands
+where dhvagna-npi
+dhvagna-npi --version
+
+3. Run the Example Scripts
+Now test the example scripts to make sure the package works as expected:
+cmd:: Go back to your project directory if needed
+cd F:\MyBuilds\PYTHON_PACKAGE\AIIIIIIIIIIIIIIIIIIIIII\dhvagna-npi
+
+:: Run the minimal example
+python examples\minimal_example.py

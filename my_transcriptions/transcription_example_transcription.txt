@@ -1,0 +1,3 @@
+Language: English-US
+
+show the custom language is set to English
