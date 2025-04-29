@@ -52,3 +52,11 @@ transcriptions/
 # OS specific
 .DS_Store
 Thumbs.db
+
+# Documentation files that shouldn't be in repo
+TESTING.MD
+DEVELOPER.MD
+activation.txt
+
+# Credentials and configuration
+examples/.pypirc
