@@ -13,16 +13,17 @@ jobs:
       matrix:
         os: [windows-latest, ubuntu-latest, macos-latest]
         python-version: [3.7, 3.8, 3.9, '3.10']
-      # Don't fail the entire matrix if one combination fails
       fail-fast: false
 
     steps:
-    - uses: actions/checkout@v4
+    - name: Checkout repository
+      uses: actions/checkout@v4
     
     - name: Set up Python ${{ matrix.python-version }}
       uses: actions/setup-python@v5
       with:
         python-version: ${{ matrix.python-version }}
+        cache: 'pip'
     
     - name: Install system dependencies for PyAudio (Ubuntu)
       if: matrix.os == 'ubuntu-latest'
@@ -69,3 +70,4 @@ jobs:
       with:
         name: dist-${{ matrix.os }}-${{ matrix.python-version }}
         path: dist/
+        retention-days: 7
