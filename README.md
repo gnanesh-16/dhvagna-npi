@@ -8,7 +8,7 @@
   <img alt="Version" src="https://img.shields.io/badge/version-0.1.3-blue">
   <img alt="Python" src="https://img.shields.io/badge/python-3.7%2B-blue">
   <img alt="License" src="https://img.shields.io/badge/license-MIT-green">
-  <img alt="PyPI Downloads" src="https://img.shields.io/pypi/dm/dhvagna-npi">
+<a href="https://pepy.tech/projects/dhvagna-npi"><img src="https://static.pepy.tech/badge/dhvagna-npi" alt="PyPI Downloads"></a>
 </p>
 
 <p align="center">
